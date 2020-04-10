@@ -49,6 +49,7 @@ router.get('/flashcards/:id', async (req, res) => {
 
 // update flashcards by its id
 // async
+// hier kommt noch ein update
 router.patch('/flashcards/:id', async (req, res) => {
     const _id = req.params.id
 
